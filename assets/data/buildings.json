@@ -1,0 +1,52 @@
+[
+  {
+    "id": "teaching-a",
+    "name": "教学楼A",
+    "category": "教学楼",
+    "desc": "建于2010年，共6层，设有普通教室、多媒体教室和阶梯教室，可容纳3000名学生。",
+    "model": "building-a.glb",
+    "position": [0, 0, 0],
+    "rotation": [0, 0, 0],
+    "scale": [1, 1, 1]
+  },
+  {
+    "id": "teaching-b",
+    "name": "教学楼B",
+    "category": "教学楼",
+    "desc": "建于2015年，共5层，主要配备计算机实验室和语音教室。",
+    "model": "building-b.glb",
+    "position": [40, 0, 0],
+    "rotation": [0, 0, 0],
+    "scale": [1, 1, 1]
+  },
+  {
+    "id": "library",
+    "name": "图书馆",
+    "category": "公共设施",
+    "desc": "校园标志性建筑，共4层，藏书50万册，设有自习区、电子阅览室和学术报告厅。",
+    "model": "building-c.glb",
+    "position": [-30, 0, 20],
+    "rotation": [0, 0, 0],
+    "scale": [1, 1, 1]
+  },
+  {
+    "id": "dormitory",
+    "name": "学生宿舍",
+    "category": "生活区",
+    "desc": "共12层，标准四人间，配备空调、热水和独立卫浴。",
+    "model": "building-d.glb",
+    "position": [20, 0, -30],
+    "rotation": [0, 0, 0],
+    "scale": [1, 1, 1]
+  },
+  {
+    "id": "cafeteria",
+    "name": "食堂",
+    "category": "生活区",
+    "desc": "共3层，一楼大众餐饮、二楼风味小吃、三楼教职工餐厅。",
+    "model": "building-e.glb",
+    "position": [-20, 0, -25],
+    "rotation": [0, 0, 0],
+    "scale": [1, 1, 1]
+  }
+]
