@@ -9,5 +9,9 @@ export class Toolbar {
     document.getElementById('btn-top')?.addEventListener('click', () => {
       this.camera.topView()
     })
+
+    document.getElementById('btn-walk')?.addEventListener('click', () => {
+      this.camera.walkView()
+    })
   }
 }

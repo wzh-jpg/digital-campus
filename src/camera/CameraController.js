@@ -50,6 +50,12 @@ export class CameraController {
     this.controls.update()
   }
 
+  walkView() {
+    this.camera.position.set(-15, 2.5, 35)
+    this.controls.target.set(0, 2, 0)
+    this.controls.update()
+  }
+
   update() {
     this.controls.update()
   }
