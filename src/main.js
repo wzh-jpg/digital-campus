@@ -6,7 +6,7 @@ import { RaycasterHandler } from './interaction/RaycasterHandler.js'
 import { BuildingHighlighter } from './interaction/BuildingHighlighter.js'
 import { InfoPanel } from './ui/InfoPanel.js'
 import { Toolbar } from './ui/Toolbar.js'
-import buildingData from '../assets/data/buildings.json' assert { type: 'json' }
+import buildingData from '../assets/data/buildings.json' with { type: 'json' }
 
 const loadingEl = document.getElementById('loading')
 
