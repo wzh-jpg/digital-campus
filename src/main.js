@@ -1,6 +1,7 @@
 import { WebGLRenderer } from 'three'
 import { SceneSetup } from './scene/SceneSetup.js'
 import { CampusBuilder } from './scene/CampusBuilder.js'
+import { RoadSystem } from './scene/RoadSystem.js'
 import { CameraController } from './camera/CameraController.js'
 import { RaycasterHandler } from './interaction/RaycasterHandler.js'
 import { BuildingHighlighter } from './interaction/BuildingHighlighter.js'
@@ -79,6 +80,10 @@ async function init() {
   const meshes = []
   allModels.forEach((m) => m.traverse((c) => { if (c.isMesh) { meshes.push(c); totalMeshes++ } }))
   console.log(`✓ 模型加载完成：${allModels.length} 组，共 ${totalMeshes} 个 Mesh`)
+
+  const roads = new RoadSystem(scene)
+  roads.build()
+  console.log('✓ 道路系统已生成')
 
   raycaster
     .onClick((hits) => {
